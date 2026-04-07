@@ -28,12 +28,12 @@ export default function Profile() {
     return (
         <div className="h-screen bg-gray-800 flex justify-center items-center flex-col gap-4 p-2">
 
-            <div className="max-w-md w-full mx-auto bg-gray-600 rounded-2xl p-5 text-white text-center">
+            <div className="max-w-md w-full mx-auto bg-gray-600 rounded-2xl p-5 text-white text-center font-raleway">
                 {/* foto */}
                 <img src={data.avatar} alt="" className="rounded-full size-40 object-cover mx-auto my-3"/>
 
                 {/* nome completo */}
-                <h1 className="text-3xl font-bold mb-3">{data.name}</h1>
+                <h1 className="text-3xl font-bold mb-3 font-oswald">{data.name}</h1>
 
                 {/* localização */}
                 <p className="text-blue-400 font-bold mb-6">{data.location}</p>
